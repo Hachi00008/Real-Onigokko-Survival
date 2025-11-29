@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "true_material":{
+            "trigger": "bee_nest_destroyed",
+            "conditions": {
+                "block": "beehive",
+                "num_bees_inside": 10
+            }
+        }
+    },
+    "rewards": {
+        "function": "ros:player/break_material/true"
+    }
+}
