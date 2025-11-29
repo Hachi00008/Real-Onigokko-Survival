@@ -1,0 +1,2 @@
+#リーフアーマーを与える
+    give @s leather_chestplate[unbreakable={},dyed_color=8439583,item_name={text:"リーフアーマー",bold:true,color:"green",italic:false},attribute_modifiers=[{type:"max_health",amount:16,id:"6b93512c-4564-438c-8150-e4ab62f080da",operation:"add_value",slot:"chest",display:{type:"default"}}],tooltip_display={hidden_components:["dyed_color"]}]

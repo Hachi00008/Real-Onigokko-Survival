@@ -1,0 +1,2 @@
+#王の剣を与える
+    give @s golden_sword[enchantments={"ros:special_attack":10},unbreakable={},item_name={text:"王の剣",italic:false,bold:true},attribute_modifiers=[{type:"attack_damage",amount:9,id:"f8469e7e-1b16-4b99-b6dc-50bd27ed3b94",operation:"add_value",display:{type:"default"},slot:"hand"}]]

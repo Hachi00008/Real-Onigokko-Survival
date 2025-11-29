@@ -92,6 +92,33 @@
                     "type": "item",
                     "name": "golden_apple",
                     "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "flint_and_steel",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "cobweb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ],
+                    "weight": 4
                 }
             ]
         }

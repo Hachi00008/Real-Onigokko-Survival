@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#$#",
+        " % ",
+        " % "
+    ],
+    "key": {
+        "#":"iron_ingot",
+        "$":"nether_star",
+        "%":"stick"
+    },
+    "category": "equipment",
+    "result": {
+        "id": "iron_pickaxe",
+        "components": {
+            "enchantments":{"efficiency":10,"unbreaking":3},
+            "item_name":{"text":"爆速のピッケル","color":"dark_red","bold":true,"italic":true}
+        }
+    }
+}

@@ -1,0 +1,2 @@
+#テレポート玉
+    give @s heart_of_the_sea[custom_data={tp_ball:true},item_name={text:"テレポート玉",bold:true,color:"gold"},food={nutrition:0,saturation:0,can_always_eat:true},consumable={animation:"none",consume_seconds:0.01,has_consume_particles:false,"sound":intentionally_empty},item_model="ender_eye"]

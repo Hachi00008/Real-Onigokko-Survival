@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#":"rotten_flesh",
+        "$":"nether_star"
+    },
+    "category": "equipment",
+    "result": {
+        "id": "cooked_beef",
+        "components": {
+            "item_name": {"text":"ゾンビステーキ","color":"dark_green","bold":true,"italic":false}
+        },
+        "count": 8
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "entity.player.burp":{
+        "replace": true,
+        "sounds": [
+            {
+                "name": "entity/player/burp"
+            }
+        ]
+    }
+}
