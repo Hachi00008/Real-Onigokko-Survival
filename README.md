@@ -5,6 +5,4 @@
 
 カラフルピーチ 様
 
-カラフルピーチ様のチャンネルURL
-
 https://www.youtube.com/channel/UCh7bThzNArch6TgoHB1HVhA
