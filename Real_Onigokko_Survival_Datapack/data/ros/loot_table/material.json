@@ -119,6 +119,56 @@
                         }
                     ],
                     "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "healing",
+                                    "custom_effects": [
+                                        {
+                                            "id": "regeneration",
+                                            "ambient": true,
+                                            "amplifier": 4,
+                                            "duration": 1,
+                                            "show_icon": false,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "healing",
+                                    "custom_effects": [
+                                        {
+                                            "id": "regeneration",
+                                            "ambient": true,
+                                            "amplifier": 4,
+                                            "duration": 1,
+                                            "show_icon": false,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 3
                 }
             ]
         }
