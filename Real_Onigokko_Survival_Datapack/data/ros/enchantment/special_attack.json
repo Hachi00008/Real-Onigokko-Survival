@@ -24,16 +24,18 @@
                     "type": "all_of",
                     "effects": [
                         {
-                            "type": "damage_entity",
-                            "min_damage": 5,
-                            "max_damage": 5,
-                            "damage_type": "player_attack"
-                        },
-                        {
                             "type": "run_function",
                             "function": "ros:player/item/season1/special_attack"
                         }
                     ]
+                }
+            }
+        ],
+        "damage": [
+            {
+                "effect": {
+                    "type": "add",
+                    "value": 7
                 }
             }
         ]

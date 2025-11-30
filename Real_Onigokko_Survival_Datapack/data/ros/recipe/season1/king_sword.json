@@ -14,7 +14,45 @@
         "components": {
             "enchantments":{"ros:special_attack":10},
             "unbreakable":{},
-            "item_name":{"text":"王の剣","italic":false,"bold":true}
+            "item_name":{"text":"王の剣","italic":false,"bold":true,"color": "gold"},
+            "attribute_modifiers": [
+                {
+                    "type": "attack_damage",
+                    "amount": 0,
+                    "id": "b0da5d86-a39e-4070-8313-79634e688698",
+                    "operation": "add_value",
+                    "display": {
+                        "type": "default"
+                    },
+                    "slot": "hand"
+                }
+            ],
+            "lore": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": "利き手に持ったとき:",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 9 攻撃力",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "text": " 1.6 攻撃速度",
+                    "color": "dark_green",
+                    "italic": false
+                }
+            ],
+            "tooltip_display": {
+                "hidden_components": [
+                    "attribute_modifiers",
+                    "unbreakable"
+                ]
+            }
         }
     },
     "category": "equipment"

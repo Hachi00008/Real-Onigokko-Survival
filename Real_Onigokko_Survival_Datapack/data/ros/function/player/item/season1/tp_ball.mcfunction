@@ -6,4 +6,4 @@
 #タグを外す
     tag @s remove tp_ball_use
 #リセット
-    advancement revoke @s only ros:system/item/season1/tp_ball
+    advancement revoke @s only ros:system/item/season1/tp_ball_use

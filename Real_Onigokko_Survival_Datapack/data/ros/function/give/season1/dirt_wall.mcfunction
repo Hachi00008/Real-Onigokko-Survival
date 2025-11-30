@@ -1,0 +1,2 @@
+#土の壁
+    give @s heart_of_the_sea[food={nutrition:0,saturation:0,can_always_eat:true},custom_data={dirt_wall:true},item_model="quartz",item_name={text:"土の壁",color:"gold",italic:false},consumable={animation:"none",consume_seconds:0.01,has_consume_particles:false,"sound":intentionally_empty}]

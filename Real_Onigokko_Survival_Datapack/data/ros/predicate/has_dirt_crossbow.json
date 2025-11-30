@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ros:has_dirt_crossbow_main"
+        },
+        {
+            "condition": "reference",
+            "name": "ros:has_dirt_crossbow_off"
+        }
+    ]
+}
