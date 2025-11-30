@@ -8,4 +8,5 @@
         scoreboard objectives add dirt_crossbow_charge dummy
         scoreboard objectives add entity_tick dummy
         scoreboard objectives add Temporary dummy
+        scoreboard objectives add reward_book trigger
 #スコアの変更

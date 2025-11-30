@@ -1,4 +1,6 @@
 ##シーズン1に変更
+#スコア変更
+    scoreboard players set season Game 1
 #ストレージ変更
     data modify storage ros:game season set value 1
 #レシピの無効化
