@@ -3,6 +3,4 @@
 
 再現元
 
-カラフルピーチ 様
-
-https://www.youtube.com/channel/UCh7bThzNArch6TgoHB1HVhA
+[カラフルピーチ](https://www.youtube.com/channel/UCh7bThzNArch6TgoHB1HVhA)様
