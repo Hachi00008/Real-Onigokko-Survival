@@ -1,0 +1,2 @@
+#エンチャントリンゴ
+    give @s apple[enchantment_glint_override=true,custom_data={enchant_apple:true},item_name={text:"エンチャントリンゴ",color:"aqua"},food={nutrition:1,saturation:2,can_always_eat:true},consumable={animation:"eat",consume_seconds:1.8,has_consume_particles:true,sound:entity.generic.eat}]

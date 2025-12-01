@@ -24,7 +24,17 @@
                     "display": {
                         "type": "default"
                     },
-                    "slot": "hand"
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "attack_speed",
+                    "amount": -2.4,
+                    "id": "197657e1-4293-43e0-a963-afb1518bfd35",
+                    "operation": "add_value",
+                    "display": {
+                        "type": "default"
+                    },
+                    "slot": "mainhand"
                 }
             ],
             "lore": [
