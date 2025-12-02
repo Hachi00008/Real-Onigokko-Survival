@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "rapid_shot":{
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "player": {
+                    "team": "Hunter"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ros:player/hunter_skill/four/rapid_shot"
+    }
+}

@@ -47,7 +47,7 @@
                 {
                     "type": "item",
                     "name": "bow",
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "item",
@@ -168,7 +168,7 @@
                             }
                         }
                     ],
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "item",

@@ -10,5 +10,5 @@
     execute if score @s Ability_timer matches 60 run playsound entity.dragon_fireball.explode master @a ~ ~ ~ 1.0 1.0
     execute if score @s Ability_timer matches 60 run particle explosion_emitter ~ ~ ~ 1.5 1.5 1.5 0 10
     execute if score @s Ability_timer matches 62 run effect clear @s resistance
-    execute if score @s Ability_timer matches 62 run effect give @s slow_falling 3 0 true
+    execute if score @s Ability_timer matches 62 run tag @s add safe_fall
     execute if score @s Ability_timer matches 62 run scoreboard players set @s Cooltime 200
