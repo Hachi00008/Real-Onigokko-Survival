@@ -12,6 +12,9 @@
     execute align xz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~1 ~ {Tags:[map_center],Marker:true}
 #演出
     playsound entity.experience_orb.pickup master @a
+#ボーダー設定
+    execute at @e[tag=map_center] run worldborder center ~ ~
+    worldborder set 500
 #リセット
     scoreboard players reset @s game_book
     scoreboard players enable @s game_book

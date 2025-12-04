@@ -1,8 +1,18 @@
 ##物資召喚用のアマスタ召喚
+#プレイ範囲のロード
+    forceload add ~-250 ~-250 ~-50 ~-50
+    forceload add ~-250 ~250 ~-50 ~50
+    forceload add ~250 ~-250 ~50 ~-50
+    forceload add ~250 ~250 ~50 ~50
+    forceload add ~-50 ~-50 ~50 ~50
+    execute as @a if loaded ~-250 ~ ~-250 run tellraw @a [{text:"~-250 ~ ~-250 loaded!"}]
+    execute as @a if loaded ~250 ~ ~250 run tellraw @a [{text:"~250 ~ ~250 loaded!"}]
+    execute as @a if loaded ~-250 ~ ~250 run tellraw @a [{text:"~-250 ~ ~250 loaded!"}]
+    execute as @a if loaded ~250 ~ ~-250 run tellraw @a [{text:"~250 ~ ~-250 loaded!"}]
 #再帰処理
     function ros:player/item/game_book/rec
 #散開させる
-    execute at @s run spreadplayers ~ ~ 10 250 false @e[tag=material_summon]
+    execute at @e[type=armor_stand,tag=map_center] run spreadplayers ~ ~ 10 250 false @e[tag=material_summon]
     execute as @e[tag=material_summon] at @s positioned over motion_blocking_no_leaves run tp @s ~ ~ ~
 #ブロックのセット
     execute as @e[tag=material_summon] at @s run setblock ~ ~ ~ beehive{bees:[{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999},{entity_data:{id:"marker"},min_ticks_in_hive:999999999,ticks_in_hive:999999999}],components:{custom_data:{"material":true}}}

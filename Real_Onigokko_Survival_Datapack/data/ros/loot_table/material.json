@@ -5,7 +5,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "nether_star"
+                    "name": "nether_star",
+                    "weight": 2
                 },
                 {
                     "type": "item",

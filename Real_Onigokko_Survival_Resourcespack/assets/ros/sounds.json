@@ -1,0 +1,10 @@
+{
+    "skill.four.arrow_rain":{
+        "replace": true,
+        "sounds": [
+            {
+                "name": "ros:skill/four/arrow_rain"
+            }
+        ]
+    }
+}
