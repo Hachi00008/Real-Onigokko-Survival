@@ -1,4 +1,4 @@
-##壱ノ鬼指定
+##参ノ鬼指定
 #チームの名前変更
     team modify Hunter prefix [{text:"参ノ鬼"},{text:"\uF80F",font:"space"}]
 #アイテム設定
@@ -18,7 +18,7 @@
     give @a[team=Hunter] arrow 200
 #属性変更
     execute as @a run attribute @s movement_speed modifier remove e2c117a2-e0d6-4caf-9228-117773c432c1
-    execute as @a[team=Hunter] run attribute @s movement_speed modifier add e2c117a2-e0d6-4caf-9228-117773c432c1 0.05 add_value
+    execute as @a[team=Hunter] run attribute @s movement_speed modifier add e2c117a2-e0d6-4caf-9228-117773c432c1 0.005 add_value
 #スコアを設定
     scoreboard players set @a[team=Hunter] Hunter_number 3
 #中心にtp

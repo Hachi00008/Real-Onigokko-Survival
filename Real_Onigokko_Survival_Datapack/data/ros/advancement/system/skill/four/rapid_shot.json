@@ -3,9 +3,22 @@
         "rapid_shot":{
             "trigger": "shot_crossbow",
             "conditions": {
-                "player": {
-                    "team": "Hunter"
-                }
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "Hunter"
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "Hunter_number": 4
+                        }
+                    }
+                ]
             }
         }
     },
