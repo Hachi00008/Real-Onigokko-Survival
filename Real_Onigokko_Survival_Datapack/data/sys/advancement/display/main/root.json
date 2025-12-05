@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "リアル鬼ごっこサバイバル -メイン進捗-",
+        "description": "10体の鬼を討伐するサバイバル鬼ごっこゲーム",
+        "icon": {
+            "id": "paper",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "background": "block/obsidian",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "root":{
+            "trigger": "tick"
+        }
+    }
+}

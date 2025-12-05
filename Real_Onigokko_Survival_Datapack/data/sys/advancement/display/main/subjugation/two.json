@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "討伐 -弐ノ鬼-",
+        "description": "弐ノ鬼を討伐する",
+        "icon": {
+            "id": "stone",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/main/subjugation/one",
+    "criteria": {
+        "one":{
+            "trigger": "impossible"
+        }
+    }
+}

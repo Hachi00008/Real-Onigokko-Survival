@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hunter_tick":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "team": "Hunter"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sys:player/hunter_tick"
+    }
+}

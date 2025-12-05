@@ -3,5 +3,13 @@
         "min_format": [92,0],
         "max_format": [92,0],
         "description": "リアル鬼ごっこサバイバル再現データパック"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/*"
+            }
+        ]
     }
 }

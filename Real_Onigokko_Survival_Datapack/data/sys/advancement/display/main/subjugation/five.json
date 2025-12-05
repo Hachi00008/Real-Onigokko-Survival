@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "討伐 -伍ノ鬼-",
+        "description": "伍ノ鬼を討伐する",
+        "icon": {
+            "id": "lapis_lazuli",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/main/subjugation/four",
+    "criteria": {
+        "one":{
+            "trigger": "impossible"
+        }
+    }
+}

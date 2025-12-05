@@ -1,0 +1,69 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "  #",
+        " # ",
+        "$  "
+    ],
+    "key": {
+        "#":"nether_star",
+        "$":"diamond_pickaxe"
+    },
+    "result": {
+        "id": "golden_sword",
+        "components": {
+            "enchantments":{"sys:special_attack":10},
+            "unbreakable":{},
+            "item_name":{"text":"王の剣","italic":false,"bold":true,"color": "gold"},
+            "attribute_modifiers": [
+                {
+                    "type": "attack_damage",
+                    "amount": 0,
+                    "id": "b0da5d86-a39e-4070-8313-79634e688698",
+                    "operation": "add_value",
+                    "display": {
+                        "type": "default"
+                    },
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "attack_speed",
+                    "amount": -2.4,
+                    "id": "197657e1-4293-43e0-a963-afb1518bfd35",
+                    "operation": "add_value",
+                    "display": {
+                        "type": "default"
+                    },
+                    "slot": "mainhand"
+                }
+            ],
+            "lore": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": "利き手に持ったとき:",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 9 攻撃力",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "text": " 1.6 攻撃速度",
+                    "color": "dark_green",
+                    "italic": false
+                }
+            ],
+            "tooltip_display": {
+                "hidden_components": [
+                    "attribute_modifiers",
+                    "unbreakable"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

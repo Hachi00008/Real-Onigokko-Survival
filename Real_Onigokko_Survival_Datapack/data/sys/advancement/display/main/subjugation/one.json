@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "討伐 -壱ノ鬼-",
+        "description": "壱ノ鬼を討伐する",
+        "icon": {
+            "id": "oak_planks",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/main/root",
+    "criteria": {
+        "one":{
+            "trigger": "impossible"
+        }
+    }
+}

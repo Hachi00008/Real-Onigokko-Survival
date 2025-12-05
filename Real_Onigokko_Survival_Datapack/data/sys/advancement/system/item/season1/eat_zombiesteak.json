@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "eat_zombiesteak":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": {
+                            "zombiesteak":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sys:player/item/season1/zombiesteak"
+    }
+}

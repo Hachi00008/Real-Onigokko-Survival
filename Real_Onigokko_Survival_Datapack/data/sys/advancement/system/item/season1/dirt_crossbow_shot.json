@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "dirt_crossbow_shot":{
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "item": {
+                    "items": "crossbow",
+                    "components": {
+                        "custom_data": {
+                            "dirt_crossbow":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sys:player/item/season1/dirt_crossbow_shot"
+    }
+}

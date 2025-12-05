@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "初陣",
+        "description": "初めてリア鬼に参加する",
+        "icon": {
+            "id": "lime_banner",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/main/root",
+    "criteria": {
+        "first_battle":{
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "tp_ball":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": {
+                            "tp_ball":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sys:player/item/season1/tp_ball"
+    }
+}
