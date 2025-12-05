@@ -17,6 +17,10 @@
         scoreboard objectives add Hunter_number dummy
         scoreboard objectives add Ability_timer dummy
         scoreboard objectives add Cooltime dummy
+        scoreboard objectives add arrow_spread.x_spread dummy
+        scoreboard objectives add arrow_spread.z_spread dummy
+        scoreboard objectives add arrow_spread.x_pos dummy
+        scoreboard objectives add arrow_spread.z_pos dummy
 #スコアの変更
 #クールタイムの付与
     scoreboard players add @a Cooltime 0

@@ -1,0 +1,23 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "flags": {
+                    "is_sneaking": true
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "Cooltime": {
+                    "max": 0
+                }
+            }
+        }
+    ]
+}

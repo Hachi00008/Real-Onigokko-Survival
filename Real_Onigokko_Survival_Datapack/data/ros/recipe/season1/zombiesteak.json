@@ -13,7 +13,16 @@
     "result": {
         "id": "cooked_beef",
         "components": {
-            "item_name": {"text":"ゾンビステーキ","color":"dark_green","bold":true,"italic":false}
+            "item_name": {"text":"ゾンビステーキ","color":"dark_green","bold":true,"italic":false},
+            "custom_data": {
+                "zombiesteak":true
+            },
+            "consumable": {
+                "animation": "eat",
+                "consume_seconds": 1.8,
+                "has_consume_particles": true,
+                "sound": "entity.generic.eat"
+            }
         },
         "count": 9
     }

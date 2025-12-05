@@ -28,7 +28,7 @@
                             "count": 5
                         }
                     ],
-                    "weight": 6
+                    "weight": 4
                 },
                 {
                     "type": "item",
@@ -38,12 +38,12 @@
                 {
                     "type": "item",
                     "name": "bucket",
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "item",
                     "name": "coal_block",
-                    "weight": 5
+                    "weight": 4
                 },
                 {
                     "type": "item",
@@ -64,12 +64,12 @@
                             "count": 16
                         }
                     ],
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "item",
                     "name": "shears",
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "item",
@@ -119,7 +119,7 @@
                             "count": 3
                         }
                     ],
-                    "weight": 4
+                    "weight": 3
                 },
                 {
                     "type": "item",

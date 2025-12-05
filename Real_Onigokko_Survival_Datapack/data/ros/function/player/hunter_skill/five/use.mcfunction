@@ -1,0 +1,20 @@
+##スキルの使用
+#スコアを増やす
+    scoreboard players add @s Ability_timer 1
+#スコアごとの処理
+    execute if score @s Ability_timer matches 1 run playsound block.respawn_anchor.charge master @s ~ ~ ~ 1.0 1.0
+    execute if score @s Ability_timer matches 1..6 run title @s actionbar [{text:"| □",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 7 run playsound ui.button.click master @s ~ ~ ~ 1.0 0.5
+    execute if score @s Ability_timer matches 7..13 run title @s actionbar [{text:"| ■",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 14 run playsound ui.button.click master @s ~ ~ ~ 1.0 0.7
+    execute if score @s Ability_timer matches 14..20 run title @s actionbar [{text:"| ■",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 21 run playsound ui.button.click master @s ~ ~ ~ 1.0 0.9
+    execute if score @s Ability_timer matches 21..27 run title @s actionbar [{text:"| ■",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 28 run playsound ui.button.click master @s ~ ~ ~ 1.0 1.1
+    execute if score @s Ability_timer matches 28..34 run title @s actionbar [{text:"| ■",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"□ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 35 run playsound ui.button.click master @s ~ ~ ~ 1.0 1.3
+    execute if score @s Ability_timer matches 35.. run title @s actionbar [{text:"| ■",bold:true,color:"white"},{text:"\uF822",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■",bold:true,color:"white"},{text:"\uF822",bold:true,color:"white",font:"space"},{text:"■ |",bold:true,color:"white"}]
+    execute if score @s Ability_timer matches 35 run playsound entity.illusioner.mirror_move master @s ~ ~ ~ 1.0 1.0
+    execute if score @s Ability_timer matches 35 run playsound entity.player.teleport master @s ~ ~ ~ 1.0 1.0
+    execute if score @s Ability_timer matches 35 at @p[team=Hunter,limit=1] run tp @s ~ ~ ~
+    execute if score @s Ability_timer matches 35 run scoreboard players set @s Cooltime 800
