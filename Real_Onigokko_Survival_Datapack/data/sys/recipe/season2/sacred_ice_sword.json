@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "  #",
+        "$# ",
+        "%$ "
+    ],
+    "key": {
+        "#":"diamond",
+        "$":"nether_star",
+        "%":"diamond_sword"
+    },
+    "category": "equipment",
+    "result": {
+        "id": "diamond_sword",
+        "components": {
+            "item_model": "ros:season2/ice_sword",
+            "item_name": {
+                "text": "聖氷の剣",
+                "color": "white",
+                "bold": true,
+                "italic": false
+            }
+        }
+    }
+}
