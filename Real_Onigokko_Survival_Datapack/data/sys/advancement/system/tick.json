@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "ros:player/tick"
+        "function": "sys:player/tick"
     }
 }

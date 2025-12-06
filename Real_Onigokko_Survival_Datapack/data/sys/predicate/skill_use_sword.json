@@ -1,0 +1,20 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "#sys:skill_swords"
+                    }
+                }
+            }
+        },
+        {
+            "condition":"reference",
+            "name": "sys:skill_use"
+        }
+    ]   
+}
