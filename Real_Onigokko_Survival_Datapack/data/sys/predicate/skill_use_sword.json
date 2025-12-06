@@ -5,16 +5,46 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
-                    "mainhand": {
-                        "items": "#sys:skill_swords"
-                    }
+                "flags": {
+                    "is_sneaking": true
                 }
             }
         },
         {
-            "condition":"reference",
-            "name": "sys:skill_use"
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": "diamond_sword"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": "netherite_sword"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "Cooltime": {
+                    "max": 0
+                }
+            }
         }
     ]   
 }
