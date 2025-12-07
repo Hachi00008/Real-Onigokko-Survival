@@ -5,4 +5,4 @@
     tag @n[type=arrow] add first_shot
     tag @s add skill_use
 #クールタイムを付与
-    scoreboard players set @s Cooltime 600
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[0].time set value 700

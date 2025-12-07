@@ -11,3 +11,5 @@
     execute as @e[tag=summon_arrow1] at @s run function sys:player/hunter_skill/four/skill_tick2
 #肆ノ鬼弓矢の雨3
     execute as @e[tag=bound_arrow] at @s run function sys:player/hunter_skill/four/skill_tick3
+#陸ノ鬼炎の雨
+    execute as @e[tag=six_rain_skill] at @s run function sys:player/hunter_skill/six/skill/fire_rain

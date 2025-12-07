@@ -23,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "ros:player/hunter_skill/four/_"
+        "function": "sys:player/hunter_skill/four/_"
     }
 }

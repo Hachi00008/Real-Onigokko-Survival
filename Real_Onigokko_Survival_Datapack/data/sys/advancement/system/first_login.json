@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "first_login":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "sys:player/first_login"
+    }
+}

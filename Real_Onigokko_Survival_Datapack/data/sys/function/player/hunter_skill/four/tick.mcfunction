@@ -1,0 +1,2 @@
+#UI
+    title @s actionbar [{text:"| "},{text:"skill"},{nbt:'_[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[0].skill',storage:"oh_my_dat:"},{text:" : "},{nbt:'_[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[0].time',storage:"oh_my_dat:",interpret:false},{text:" |"}]

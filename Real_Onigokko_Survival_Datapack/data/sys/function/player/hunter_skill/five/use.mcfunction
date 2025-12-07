@@ -17,4 +17,4 @@
     execute if score @s Ability_timer matches 35 run playsound entity.illusioner.mirror_move master @s ~ ~ ~ 1.0 1.0
     execute if score @s Ability_timer matches 35 run playsound entity.player.teleport master @s ~ ~ ~ 1.0 1.0
     execute if score @s Ability_timer matches 35 at @p[team=Hunter,limit=1] run tp @s ~ ~ ~
-    execute if score @s Ability_timer matches 35 run scoreboard players set @s Cooltime 800
+    execute if score @s Ability_timer matches 35 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[0].time set value 800

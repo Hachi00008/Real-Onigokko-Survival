@@ -11,4 +11,4 @@
     execute if score @s Ability_timer matches 60 run particle explosion_emitter ~ ~ ~ 1.5 1.5 1.5 0 10
     execute if score @s Ability_timer matches 62 run effect clear @s resistance
     execute if score @s Ability_timer matches 62 run tag @s add safe_fall
-    execute if score @s Ability_timer matches 62 run scoreboard players set @s Cooltime 200
+    execute if score @s Ability_timer matches 62 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[0].time set value 400

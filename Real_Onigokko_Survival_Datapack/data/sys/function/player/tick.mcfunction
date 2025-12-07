@@ -10,6 +10,6 @@
 #ゲームの設定
     execute if score @s game_book matches 1.. run function sys:player/item/game_book/_
 #クールタイム
-    execute if score @s Cooltime matches 1.. run scoreboard players remove @s Cooltime 1
+    function sys:player/cooltime
 #リセット
     advancement revoke @s only sys:system/tick

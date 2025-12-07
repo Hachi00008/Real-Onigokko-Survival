@@ -1,0 +1,18 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "sys:is_graund"
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "Ability_timer": {
+                    "min": 300
+                }
+            }
+        }
+    ]
+}

@@ -19,7 +19,7 @@
                     "predicate": {
                         "equipment": {
                             "mainhand": {
-                                "items": "diamond_sword"
+                                "items": "diamond_axe"
                             }
                         }
                     }
@@ -30,7 +30,7 @@
                     "predicate": {
                         "equipment": {
                             "mainhand": {
-                                "items": "netherite_sword"
+                                "items": "netherite_axe"
                             }
                         }
                     }
