@@ -1,0 +1,23 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "sys:is_sneaking"
+                }
+            ]
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "Ability_timer": {
+                    "min": 600
+                }
+            }
+        }
+    ]
+}

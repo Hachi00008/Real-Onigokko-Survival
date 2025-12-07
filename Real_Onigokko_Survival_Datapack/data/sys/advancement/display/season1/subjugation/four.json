@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "討伐 -肆ノ鬼-",
+        "description": "肆ノ鬼を討伐する",
+        "icon": {
+            "id": "iron_ingot",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/season1/subjugation/three",
+    "criteria": {
+        "one":{
+            "trigger": "impossible"
+        }
+    }
+}

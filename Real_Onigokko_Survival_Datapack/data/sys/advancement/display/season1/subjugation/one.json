@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "討伐 -伍ノ鬼-",
-        "description": "伍ノ鬼を討伐する",
+        "title": "討伐 -壱ノ鬼-",
+        "description": "壱ノ鬼を討伐する",
         "icon": {
-            "id": "lapis_lazuli",
+            "id": "oak_planks",
             "components": {
                 "enchantment_glint_override": true
             }
@@ -13,7 +13,7 @@
         "hidden": false,
         "show_toast": true
     },
-    "parent": "sys:display/main/subjugation/four",
+    "parent": "sys:display/season1/root",
     "criteria": {
         "one":{
             "trigger": "impossible"

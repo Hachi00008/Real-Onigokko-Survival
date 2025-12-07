@@ -10,7 +10,7 @@
     item replace entity @a[team=Hunter] hotbar.1 with diamond_axe[unbreakable={},enchantments={efficiency:5}]
     item replace entity @a[team=Hunter] hotbar.2 with diamond_pickaxe[unbreakable={},enchantments={efficiency:5}]
     item replace entity @a[team=Hunter] hotbar.3 with diamond_shovel[unbreakable={},enchantments={efficiency:5}]
-    item replace entity @a[team=Hunter] hotbar.4 with bow[unbreakable={},enchantments={power:2}]
+    item replace entity @a[team=Hunter] hotbar.4 with bow[unbreakable={},enchantment_glint_override=true]
     item replace entity @a[team=Hunter] hotbar.5 with golden_apple 5
     item replace entity @a[team=Hunter] hotbar.6 with cooked_beef[max_stack_size=99] 99
     item replace entity @a[team=Hunter] hotbar.7 with bedrock[max_stack_size=99] 99

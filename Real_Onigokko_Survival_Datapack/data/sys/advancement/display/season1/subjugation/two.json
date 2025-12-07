@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "討伐 -参ノ鬼-",
-        "description": "参ノ鬼を討伐する",
+        "title": "討伐 -弐ノ鬼-",
+        "description": "弐ノ鬼を討伐する",
         "icon": {
-            "id": "iron_ingot",
+            "id": "stone",
             "components": {
                 "enchantment_glint_override": true
             }
@@ -13,7 +13,7 @@
         "hidden": false,
         "show_toast": true
     },
-    "parent": "sys:display/main/subjugation/two",
+    "parent": "sys:display/season1/subjugation/one",
     "criteria": {
         "one":{
             "trigger": "impossible"

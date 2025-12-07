@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components": {
+        "equippable": {
+            "asset_id": "empty",
+            "slot": "feet",
+            "equip_sound": {
+                "sound_id": "empty"
+            }
+        }
+    }
+}

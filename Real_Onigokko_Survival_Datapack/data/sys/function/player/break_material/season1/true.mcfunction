@@ -4,4 +4,4 @@
 #近くのアイテム化した物資をkill
     kill @n[type=item,predicate=sys:true_material]
 #リセット
-    advancement revoke @s only sys:system/material/true
+    advancement revoke @s only sys:system/material/season1/true

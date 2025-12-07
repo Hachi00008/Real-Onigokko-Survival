@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "初陣",
-        "description": "初めてリア鬼に参加する",
+        "title": "討伐 -伍ノ鬼-",
+        "description": "伍ノ鬼を討伐する",
         "icon": {
-            "id": "lime_banner",
+            "id": "gold_ingot",
             "components": {
                 "enchantment_glint_override": true
             }
@@ -13,9 +13,9 @@
         "hidden": false,
         "show_toast": true
     },
-    "parent": "sys:display/main/root",
+    "parent": "sys:display/season1/subjugation/four",
     "criteria": {
-        "first_battle":{
+        "one":{
             "trigger": "impossible"
         }
     }

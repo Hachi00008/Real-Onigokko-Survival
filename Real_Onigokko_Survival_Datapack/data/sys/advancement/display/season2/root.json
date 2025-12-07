@@ -1,9 +1,9 @@
 {
     "display": {
         "title": {
-            "text": "リアル鬼ごっこサバイバル -Season2-"
+            "text": "-Season2-"
         },
-        "description": "10体の鬼を討伐するサバイバル鬼ごっこゲーム",
+        "description": "",
         "icon": {
             "id": "stone_sword",
             "components": {
@@ -16,6 +16,7 @@
         "hidden": false,
         "show_toast": false
     },
+    "parent": "sys:display/root",
     "criteria": {
         "root":{
             "trigger": "tick"

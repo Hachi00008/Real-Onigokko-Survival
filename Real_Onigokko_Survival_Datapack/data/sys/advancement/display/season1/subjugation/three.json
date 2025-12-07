@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "討伐 -肆ノ鬼-",
-        "description": "肆ノ鬼を討伐する",
+        "title": "討伐 -参ノ鬼-",
+        "description": "参ノ鬼を討伐する",
         "icon": {
-            "id": "gold_ingot",
+            "id": "coal",
             "components": {
                 "enchantment_glint_override": true
             }
@@ -13,7 +13,7 @@
         "hidden": false,
         "show_toast": true
     },
-    "parent": "sys:display/main/subjugation/three",
+    "parent": "sys:display/season1/subjugation/two",
     "criteria": {
         "one":{
             "trigger": "impossible"

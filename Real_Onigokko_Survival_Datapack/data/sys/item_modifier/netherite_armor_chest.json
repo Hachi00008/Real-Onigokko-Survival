@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components": {
+        "equippable": {
+            "asset_id": "netherite",
+            "slot": "chest",
+            "equip_sound": {
+                "sound_id": "empty"
+            }
+        }
+    }
+}

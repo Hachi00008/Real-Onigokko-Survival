@@ -9,6 +9,6 @@
         }
     },
     "rewards": {
-        "function": "ros:player/break_material/true"
+        "function": "sys:player/break_material/season1/true"
     }
 }
