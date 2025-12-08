@@ -1,6 +1,6 @@
 ##陸ノ鬼指定
 #チームの名前変更
-    team modify Hunter prefix [{text:"伍ノ鬼"},{text:"\uF80F",font:"space"}]
+    team modify Hunter prefix [{text:"陸ノ鬼"},{text:"\uF80F",font:"space"}]
 #アイテム設定
     item replace entity @a[team=Hunter] armor.head with diamond_helmet[unbreakable={},enchantments={protection:3}]
     item replace entity @a[team=Hunter] armor.chest with diamond_chestplate[unbreakable={},enchantments={protection:3}]
