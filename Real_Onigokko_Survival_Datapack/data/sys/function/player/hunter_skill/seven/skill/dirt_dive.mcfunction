@@ -15,6 +15,6 @@
 #エフェクト付与
     effect give @s weakness infinite 255 true
 #アトリビュート変更
-    attribute @s step_height base set 1024
+    attribute @s jump_strength base set 0.0
 #クールタイム処理
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CoolTime[3].time set value 1800

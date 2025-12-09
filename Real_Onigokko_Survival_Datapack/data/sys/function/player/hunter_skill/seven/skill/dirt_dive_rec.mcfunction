@@ -5,7 +5,7 @@
     execute if score @s Ability_timer matches 1.. run effect give @s speed 1 4 true
 #演出
     execute if score @s Ability_timer matches 1.. run particle block{block_state:"dirt"} ~ ~0.5 ~ 0.5 0 0.5 0 30
-    execute if score @s Ability_timer matches 1.. run playsound item.shovel.flatten master @a ~ ~ ~ 1.0 1.5
+    execute if score @s Ability_timer matches 1.. run playsound block.grass.break master @a ~ ~ ~ 1.0 1.5
 #爆発処理
     execute if predicate sys:skill_end_dirt_dive if score @s Ability_timer matches 40.. run tag @s remove dirt_dive_skill
     execute if predicate sys:skill_end_dirt_dive if score @s Ability_timer matches 40.. run item modify entity @s armor.head sys:netherite_armor_head
